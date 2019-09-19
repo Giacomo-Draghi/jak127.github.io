@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#intro {
+    background-color: #f9ff00b8;
+    color: #d61717;
+    font-size: 2em;
+    line-height: 1.3em;
+    padding: 1em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    line-height: 1.3em;
+    color: #ff5a00;
+}
+a {
+    color: #d61717;
+}
+
+#myPhoto {
+    position: relative;
+    float: right;
+    width: 150px;
+    height: 200px;
+    max-width: 80%;
+    margin-right: 15px;
+    top: 15px;
+    box-shadow: 0 4px 8px 0 #353535, 0 6px 20px 0 #353535;
+}
+
+footer {
+    background-color: #f9ff00b8;
+    padding: 1em;
+    color: #d61717;
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 1.3em;
+    border-radius: 10px;
+}
+
+footer a {
+    color: #d61717;
+}
+
+#lastUpdated {
+    color: #000000;
+}
