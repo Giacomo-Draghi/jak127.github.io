@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Crete Round', serif, sans-serif;
 }
 
 #div_1 {
@@ -8,6 +8,7 @@ body {
 }
 
 #headtitle {
+    font-family: 'Patua One', cursive, sans-serif;
     background-color: #f9ff00b8;
     color: #d61717;
     font-size: 2em;
@@ -18,12 +19,16 @@ body {
 }
 
 h2 {
+    font-family: 'Patua One', cursive, sans-serif;
     font-size: 1.5em;
     line-height: 1.3em;
     color: #ff5a00;
 }
 a {
     color: #d61717;
+}
+a:hover {
+    color: #ff5a00;
 }
 
 #Picture {
