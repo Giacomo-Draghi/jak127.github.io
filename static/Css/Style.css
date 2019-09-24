@@ -11,7 +11,7 @@ body {
     font-family: 'Patua One', cursive, sans-serif;
     background-color: #f9ff00b8;
     color: #d61717;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.3em;
     padding: 1em;
     text-align: center;
@@ -20,7 +20,7 @@ body {
 
 h2 {
     font-family: 'Patua One', cursive, sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.3em;
     color: #ff5a00;
 }
@@ -32,14 +32,11 @@ a:hover {
 }
 
 #Picture {
-    position: relative;
     float: right;
     width: 150px;
-    height: 200px;
-    max-width: 80%;
+    height: auto;
     margin-right: 15px;
     top: 15px;
-    box-shadow: 0 4px 8px 0 #353535, 0 6px 20px 0 #353535;
 }
 
 footer {
@@ -49,7 +46,6 @@ footer {
     font-size: 0.9em;
     text-align: center;
     line-height: 1.3em;
-    border-radius: 10px;
 }
 
 footer a {

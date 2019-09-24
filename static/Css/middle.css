@@ -1,0 +1,15 @@
+@media only screen and (min-width: 32.5em) {
+    #headtitle {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }  
+    footer, header {
+        border-radius: 10px;
+    }
+    #Picture {
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 #353535, 0 6px 20px 0 #353535;
+    }
+}
