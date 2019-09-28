@@ -3,7 +3,7 @@ body {
 }
 
 #main-div {
-  width: 85%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -112,8 +112,8 @@ main section img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
-  max-height: 400px;
-  width: auto;
+  max-height: auto;
+  width: 90%;
 }
 
 main section h3 {
