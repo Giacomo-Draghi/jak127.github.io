@@ -211,7 +211,7 @@ nav {
 .five-day-forecast {
     border: none;
     display: none;
-    background-color: white;
+    background-color:rgba(255, 242, 94, 0.158);
 }
   
 .five-day-forecast img {
