@@ -76,4 +76,16 @@
         padding: 20px;
         width: 80%;
     }
+
+    .gallery-div {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .gallery-div picture img:hover {
+        box-shadow: 5px 10px 20px 5px rgba(233, 10, 10, 0.445);
+    }
+
+    .gallery-div picture p {
+        visibility: visible;
+    }
 }

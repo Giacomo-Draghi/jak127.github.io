@@ -292,3 +292,41 @@ nav {
 .responsive li {
 	display: block;
 }
+
+.gallery-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    position: relative;
+    margin: 20px;
+}
+
+div.gallery-div picture {
+    text-align: center;
+    background-color:rgba(255, 242, 94, 0.158);
+}
+
+.gallery-div picture img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.gallery-div picture {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .gallery-div picture p {
+    visibility: hidden;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 242, 94, 0.795);
+    color: #000;
+  }

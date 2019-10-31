@@ -22,4 +22,7 @@
     .main-contact-info {
         order: 2;
     }
+    .gallery-div {
+        grid-template-columns: 1fr 1fr;
+    }
 }
