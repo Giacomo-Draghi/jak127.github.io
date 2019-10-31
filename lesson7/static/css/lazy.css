@@ -1,0 +1,20 @@
+h1, picture{
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-column: 1fr;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
