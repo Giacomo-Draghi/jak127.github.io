@@ -330,3 +330,16 @@ div.gallery-div picture {
     background-color: rgba(255, 242, 94, 0.795);
     color: #000;
   }
+
+  picture img[data-src] {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+picture img {
+    filter: blur(0.2em);
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}

@@ -7,12 +7,12 @@ h1, picture{
 }
 
 picture img[data-src] {
-    filter: blur(0.2em);
+    filter: blur(0em);
+    transition: filter 0.5s;
 }
 
 picture img {
-    filter: blur(0em);
-    transition: filter 0.5s;
+    filter: blur(0.2em);
     display: block;
     margin: 0 auto;
     text-align: center;
