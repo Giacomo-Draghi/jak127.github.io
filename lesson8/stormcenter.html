@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Italy's Weather|Storm Center</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Assignment weather page Giacomo Draghi, CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+    <meta name="author" content="Giacomo Draghi">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="static/images/LogoFav.ico">
+    <link rel="stylesheet" href="static/css/normalize.css">
+    <link rel="stylesheet" href="static/css/small.css">
+    <link rel="stylesheet" href="static/css/medium.css">
+    <link rel="stylesheet" href="static/css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round%7cPatua+One&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header id= "headerElement">
+            <div id="friday-banner">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
+            </div>
+            <picture>
+                <img src="static/images/logo_format.png" alt="logo" />
+            </picture>
+            
+            <section class = "headings">
+                <h1>Italy's weather</h1>
+                <h2>Your weather 24H</h2>
+            </section>
+            
+        </header>
+        <nav>
+            <ul class="menu-ul">
+                <li class="menu-li"><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li class="menu-li"><a href="#" target="_self">Home</a></li>
+                <li class="menu-li"><a href="preston-8.html" target="_self">Preston</a></li>
+                <li class="menu-li"><a href="#" target="_self">Soda Spiring</a></li>
+                <li class="menu-li"><a href="#" target="_self">Fish Haven</a></li>
+                <li class="menu-li active"><a href="stormcenter.html" target="_self">Storm Center</a></li>
+                <li class="menu-li"><a href="gallery.html" target="_self">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Storm Center</h2>
+                <form method="get" action="thanks.html">
+                    <fieldset>
+                        <legend>Personal informations</legend>
+                        <label class="top">Full name*: <input type="text" name="name" minlength="5" pattern="[A-Za-z ]+" required></label>
+                        <label class="top">Emal: <input type="email" name="email" placeholder="email@yahoo.it"></label>
+                        <label class="top">Phone: <input type="tel" name="phone" required></label>
+                        <label class="top">Zip code: <input type="number" name="zip" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Storm Details</legend>
+                        <label class="top">Storm date: <input type="date" name="date"></label>
+                        <label class="top">Storm type: <input type="text" name="storm-type" list="storm-type"></label>
+                        <datalist id="storm-type">
+                            <option value="Flash Flood">
+                            <option value="Hail">
+                            <option value="Hurricane">
+                            <option value="Thunderstorm">
+                            <option value="Tornado">
+                        </datalist>
+                        <label class="top">Storm severity: <input name="storm-severity" type="range" min="1" max="10" value="5" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue">5</span></label>
+                        <label class="top">Storm region: <select name="storm-region" >
+                            <option value="">SelectRregion</option>
+                            <option value="preston">Preston</option>
+                            <option value="soda-springs">Soda Springs</option>
+                            <option value="fish-haven">Fish Haven</option>
+                        </select></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Additional info</legend>
+                        <label class="top">Reporter danger level <em>(choose one)</em>: </label>
+                        <label class="sbs" for="rb_yes"><input type="radio" value="yes" name="user_indanger_level" id="rb_yes">Yes</label>
+                        <label class="sbs" for="rb_maybe"><input type="radio" value="maybe" name="user_indanger_level" id="rb_maybe">Maybe</label>
+                        <label class="sbs" for="rb_no"><input type="radio" value="no" name="user_indanger_level" id="rb_no">No</label>
+                        <label class="top">Additional comments: <br><textarea name="comments" rows="4"></textarea></label>
+                    </fieldset>
+                    <input class="submitBtn" type="submit" value="Send Report">
+                </form> 
+        </main>
+        <footer>
+          <p>&copy; <span id="Year"></span> | Giacomo Draghi | Rimini, Italy | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a><br><span id="date"></span></p>
+        </footer>
+    <script src="static/js/myscript.js"></script>
+    <script src="static/js/lazyload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                'Patua One',
+                'Crete Round',
+                ]
+            }
+        });
+    </script>
+</body>
+</html>

@@ -88,4 +88,11 @@
     .gallery-div picture p {
         visibility: visible;
     }
+
+    form label.top {
+        font-size: 1rem;
+    }
+    form label.top input, form label.top select {
+        font-size: 1rem;
+    }
 }
