@@ -340,7 +340,7 @@ picture img {
 /*css for form*/
 
 
-form fieldset {
+.form-fieldset {
     margin: 2rem 0;
     border-radius: 10px;
     padding: .5rem 2%;
@@ -348,19 +348,19 @@ form fieldset {
 }
 
 
-/*
-form label.top {
+
+.form-label-top {
     display: block;
     padding-top: 1rem;
     font-size: 0.7rem;
     
 }
-form legend {
+.form-legend {
     color: #C62B2B;
     font-weight: bold;
 }
 
-form label.top input, form label.top select {
+.form-label-top-input, .form-label-top-select {
     display: block;
     font-size: 0.7rem;
     border: solid 1px #C62B2B;
@@ -372,12 +372,12 @@ form label.top input, form label.top select {
     background-color: rgba(0, 0, 0, 0.096);
 }
 
-form label.sbs, form label.sbs input {
-    display: block;
+.form-label-sbs, .form-label-sbs-input {
+    display: flex;
     padding: .7rem 0;
 }
 
-form input.submitBtn {
+.submitBtn {
     border: none;
     background-color: #C62B2B;
     color: #FFF15E;
@@ -388,10 +388,9 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
-form {
+.form {
     max-width: 400px;
     width: 90%;
     margin: 0 auto;
     padding: 10px;
 }
-*/

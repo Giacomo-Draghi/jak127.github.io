@@ -41,18 +41,18 @@
         </nav>
         <main>
             <h2>Storm Center</h2>
-                <form method="get" action="thanks.html">
-                    <fieldset>
-                        <legend>Personal informations</legend>
-                        <label class="top">Full name*: <input type="text" name="name" minlength="5" pattern="[A-Za-z ]+" required></label>
-                        <label class="top">Emal: <input type="email" name="email" placeholder="email@yahoo.it"></label>
-                        <label class="top">Phone: <input type="tel" name="phone" required></label>
-                        <label class="top">Zip code: <input type="number" name="zip" required></label>
+                <form method="get" action="thanks.html" class="form">
+                    <fieldset class="form-fieldset">
+                        <legend class="form-legend">Personal informations</legend>
+                        <label class="form-label-top">Full name*: <input class="form-label-top-input" type="text" name="name" minlength="5" pattern="[A-Za-z ]+" required></label>
+                        <label class="form-label-top">Emal: <input class="form-label-top-input" type="email" name="email" placeholder="email@yahoo.it"></label>
+                        <label class="form-label-top">Phone: <input class="form-label-top-input" type="tel" name="phone" required></label>
+                        <label class="form-label-top">Zip code: <input class="form-label-top-input" type="number" name="zip" required></label>
                     </fieldset>
-                    <fieldset>
-                        <legend>Storm Details</legend>
-                        <label class="top">Storm date: <input type="date" name="date"></label>
-                        <label class="top">Storm type: <input type="text" name="storm-type" list="storm-type"></label>
+                    <fieldset class="form-fieldset">
+                        <legend class="form-legend">Storm Details</legend>
+                        <label class="form-label-top">Storm date: <input class="form-label-top-input" type="date" name="date"></label>
+                        <label class="form-label-top">Storm type: <input class="form-label-top-input" type="text" name="storm-type" list="storm-type"></label>
                         <datalist id="storm-type">
                             <option value="Flash Flood">
                             <option value="Hail">
@@ -60,21 +60,21 @@
                             <option value="Thunderstorm">
                             <option value="Tornado">
                         </datalist>
-                        <label class="top">Storm severity: <input name="storm-severity" type="range" min="1" max="10" value="5" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue">5</span></label>
-                        <label class="top">Storm region: <select name="storm-region" >
+                        <label class="form-label-top">Storm severity: <input class="form-label-top-input" name="storm-severity" type="range" min="1" max="10" value="5" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue">5</span></label>
+                        <label class="form-label-top">Storm region: <select class="form-label-top-select" name="storm-region" >
                             <option value="">SelectRregion</option>
                             <option value="preston">Preston</option>
                             <option value="soda-springs">Soda Springs</option>
                             <option value="fish-haven">Fish Haven</option>
                         </select></label>
                     </fieldset>
-                    <fieldset>
-                        <legend>Additional info</legend>
-                        <label class="top">Reporter danger level <em>(choose one)</em>: </label>
-                        <label class="sbs" for="rb_yes"><input type="radio" value="yes" name="user_indanger_level" id="rb_yes">Yes</label>
-                        <label class="sbs" for="rb_maybe"><input type="radio" value="maybe" name="user_indanger_level" id="rb_maybe">Maybe</label>
-                        <label class="sbs" for="rb_no"><input type="radio" value="no" name="user_indanger_level" id="rb_no">No</label>
-                        <label class="top">Additional comments: <br><textarea name="comments" rows="4"></textarea></label>
+                    <fieldset class="form-fieldset">
+                        <legend class="form-legend">Additional info</legend>
+                        <label class="form-label-sbs">Reporter danger level <em>(choose one)</em>: </label>
+                        <label class="form-label-sbs" for="rb_yes"><input class="form-label-sbs-input" type="radio" value="yes" name="user_indanger_level" id="rb_yes">Yes</label>
+                        <label class="form-label-sbs" for="rb_maybe"><input class="form-label-sbs-input" type="radio" value="maybe" name="user_indanger_level" id="rb_maybe">Maybe</label>
+                        <label class="form-label-sbs" for="rb_no"><input class="form-label-sbs-input" type="radio" value="no" name="user_indanger_level" id="rb_no">No</label>
+                        <label class="form-label-top">Additional comments: <br><textarea name="comments" rows="4"></textarea></label>
                     </fieldset>
                     <input class="submitBtn" type="submit" value="Send Report">
                 </form> 
