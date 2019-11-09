@@ -396,7 +396,7 @@ picture img {
     padding: 10px;
 }
 
-.form-label-top-input:required {
+.form-label-top-input:invalid {
     border-left: red solid 6px;
 }
 
