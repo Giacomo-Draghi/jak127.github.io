@@ -339,6 +339,7 @@ picture img {
 
 /*css for form*/
 
+/*
 form fieldset {
     margin: 2rem 0;
     border-radius: 10px;
@@ -386,3 +387,11 @@ form input.submitBtn {
     width: 96%;
     max-width: 20rem;
 }
+
+form {
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+*/
