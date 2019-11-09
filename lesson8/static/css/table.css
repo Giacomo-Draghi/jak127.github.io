@@ -38,11 +38,11 @@ table th {
 }
 
 table tr {
-    background-color: #e7ffed;
+    background-color: #e7f0ed;
 }
 
-table tr:nth-child(odd):not(:last-child) {
-    background-color: #e7f0ed;
+table tr:nth-child(even) {
+    background-color: #e7ffed;
 }
 
 table tfoot tr,
