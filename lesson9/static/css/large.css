@@ -101,7 +101,20 @@
         font-size: 1rem;
     }
     .cards{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        margin: 10px auto;
+    }
+    
+    .cards section {
+        margin: 10px;
+    }
+
+    .cards img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
     }
 }

@@ -24,10 +24,10 @@ fetch(requestURL) .then(function (response) {
 
             card.appendChild(h2);
             card.appendChild(em);
+            card.appendChild(image);
             card.appendChild(p1);
             card.appendChild(p2);
             card.appendChild(p3);
-            card.appendChild(image);
 
             document.querySelector('div.cards').appendChild(card);
         }

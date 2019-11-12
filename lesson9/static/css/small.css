@@ -413,10 +413,10 @@ picture img {
 }
 
 .cards img {
-    width: 100%;
+    width: 50%;
     margin-top: 10px;
-    margin-bottom: 10px;
     box-shadow: 2px 2px 8px #121619;
+    float: left;
   }
 
 .cards section {
@@ -436,6 +436,9 @@ picture#hero img{
     font-style: italic;
     font-size: 0.6em;
     margin-top: 1px;
+}
+.cards p {
+    margin: 0 auto;
 }
 .cards section h2 {
     margin-bottom: 1px;
