@@ -403,3 +403,43 @@ picture img {
 .form-label-top-input:required:valid{
     border-left: green solid 6px;
 }
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin: 0 auto;
+}
+
+.cards img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 8px #121619;
+  }
+
+.cards section {
+    border: 1px solid #C62B2B;
+    background-color: rgba(255, 242, 94, 0.658);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+picture#hero img{
+    width: 100%;
+}
+
+.cards em {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.6em;
+    margin-top: 1px;
+}
+.cards section h2 {
+    margin-bottom: 1px;
+}
+
+
+  

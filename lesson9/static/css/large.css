@@ -30,7 +30,12 @@
     
     p, table, nav {
         font-size: 1em;
-	}
+    }
+    
+    .cards em {
+        font-size: 1em;
+    }
+
 	.bannerSummary {
         min-height: 350px;
     }
@@ -94,5 +99,9 @@
     }
     .form-label-top-input, .form-label-top-select {
         font-size: 1rem;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }

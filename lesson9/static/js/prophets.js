@@ -23,6 +23,6 @@ fetch(requestURL) .then(function (response) {
         card.appendChild(image);
 
         document.querySelector('div.cards').appendChild(card);
-    }  // temporary checking for valid response and data parsing
+    }  
     
 });

@@ -25,4 +25,13 @@
     .gallery-div {
         grid-template-columns: 1fr 1fr;
     }
+
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cards em {
+        font-size: 0.7em;
+    }
 }

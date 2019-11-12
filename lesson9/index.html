@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-    <title>Italy's Weather|Gallery</title>
+    <title>Italy's Weather|Home</title>
     <meta charset="utf-8">
     <meta name="description" content="Assignment weather page Giacomo Draghi, CIT 230: Web Frontend Development at Brigham Young University - Idaho">
     <meta name="author" content="Giacomo Draghi">
@@ -31,28 +31,20 @@
         <nav>
             <ul class="menu-ul">
                 <li class="menu-li"><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                <li class="menu-li"><a href="index.html" target="_self">Home</a></li>
+                <li class="menu-li active"><a href="index.html" target="_self">Home</a></li>
                 <li class="menu-li"><a href="preston-9.html" target="_self">Preston</a></li>
                 <li class="menu-li"><a href="#" target="_self">Soda Spiring</a></li>
                 <li class="menu-li"><a href="#" target="_self">Fish Haven</a></li>
                 <li class="menu-li"><a href="stormcenter.html" target="_self">Storm Center</a></li>
-                <li class="menu-li active"><a href="gallery.html" target="_self">Gallery</a></li>
+                <li class="menu-li"><a href="gallery.html" target="_self">Gallery</a></li>
             </ul>
         </nav>
         <main>
-            <h2>Gallery</h2>
-            <div class= "gallery-div">
-                <picture><img src="static/images/gallery/image-placeholder1.jpg" data-src="static/images/gallery/gallery1.jpg" alt="Landscape"> <p>Rainy road</p></picture>
-                <picture><img src="static/images/gallery/image-placeholder1.jpg" data-src="static/images/gallery/gallery2.jpg" alt="Landscape"> <p>Sun set</p></picture>
-                <picture><img src="static/images/gallery/image-placeholder1.jpg" data-src="static/images/gallery/gallery3.jpg" alt="Landscape"> <p>Montain with snow</p></picture>
-                <picture><img src="static/images/gallery/image-placeholder1.jpg" data-src="static/images/gallery/gallery4.jpg" alt="Landscape"> <p>Sunny lake</p></picture>
-                <picture><img src="static/images/gallery/image-placeholder1.jpg" data-src="static/images/gallery/gallery5.jpg" alt="Landscape"> <p>Forest</p></picture>
-                <picture><img src="static/images/gallery/image-placeholder1.jpg" data-src="static/images/gallery/gallery6.jpg" alt="Landscape"> <p>Lake house</p></picture>
-                <picture><img src="static/images/gallery/image-placeholder1.jpg" data-src="static/images/gallery/gallery7.jpg" alt="Landscape"> <p>River</p></picture>
-                <picture><img src="static/images/gallery/image-placeholder1.jpg" data-src="static/images/gallery/gallery8.jpg" alt="Landscape"> <p>Shady road</p></picture>
-                <picture><img src="static/images/gallery/image-placeholder1.jpg" data-src="static/images/gallery/gallery9.jpg" alt="Landscape"> <p>Blue lake</p></picture>
-            </div>
+            <picture id="hero"><img src="static/images/idaho-landscape-mountains.jpg" alt="landscape"></picture>
+            <div class="cards">
 
+            </div>
+            
         </main>
         <footer>
           <p>&copy; <span id="Year"></span> | Giacomo Draghi | Rimini, Italy | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a><br><span id="date"></span></p>
@@ -70,5 +62,6 @@
             }
         });
     </script>
+    <script src="static/js/index.js"></script>
 </body>
 </html>
