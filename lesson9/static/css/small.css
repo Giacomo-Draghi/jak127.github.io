@@ -410,10 +410,12 @@ picture img {
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     margin: 0 auto;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .cards img {
-    width: 50%;
+    width: 100%;
     margin-top: 10px;
     box-shadow: 2px 2px 8px #121619;
     float: left;
@@ -425,6 +427,7 @@ picture img {
     text-align: center;
     padding: 10px;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 picture#hero img{
@@ -445,5 +448,8 @@ picture#hero img{
     margin-bottom: 1px;
 }
 
+.cards section div {
+    margin: 0 auto;
+}
 
   
