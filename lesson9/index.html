@@ -40,7 +40,11 @@
             </ul>
         </nav>
         <main>
-            <picture id="hero"><img src="static/images/idaho-landscape-mountains.jpg" alt="landscape"></picture>
+            <picture id="hero">
+                <source media="(min-width: 60em)" srcset="static/images/idaho-landscape-mountains.jpg">
+                <source media="(min-width: 37.5em)" srcset="static/images/idaho-landscape-mountains-medium.jpg">
+                <img src="static/images/idaho-landscape-mountains-small.jpg" alt="Preston River">
+            </picture>
             <div class="cards">
 
             </div>
