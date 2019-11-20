@@ -5,11 +5,11 @@ fetch(apiURL)
     console.log(jsObject);
     let data = jsObject;
     let current = data.weather[0].main;
-    document.getElementById("current").textContent = current;
+    document.querySelector('span#current').append(current);
     let temperature = data.main.temp_max;
-    document.getElementById("temperature").textContent = temperature;
+    document.querySelector('span#temperature').append(temperature);
     let humidity = data.main.humidity;
-    document.getElementById("humidity").textContent = humidity;
-    let speed = data.main.speed;
-    document.getElementById("speed").textContent = speed;
+    document.querySelector('span#humidity').append(humidity);
+    let speed = data.wind.speed;
+    document.querySelector('span#speed').append(speed);
   });
