@@ -212,7 +212,8 @@ nav {
     border: none;
     display: none;
     background-color:rgba(255, 242, 94, 0.158);
-
+    margin: 0 auto;
+    text-align: center;
 }
   
 .five-day-forecast img {
@@ -222,7 +223,6 @@ nav {
   
 .five-day-forecast table {
     width: 50%;
-    margin: 0 auto;
     border: 1px solid #46B1C9;
     border-collapse: collapse;
 }
