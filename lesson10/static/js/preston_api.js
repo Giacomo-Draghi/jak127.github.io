@@ -1,5 +1,5 @@
 var apiURL ='https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=2b91a52d5a023d1d2b5394b4e8268e24';
-var apiURL2 ='https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=2b91a52d5a023d1d2b5394b4e8268e24';
+/*var apiURL2 ='https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=2b91a52d5a023d1d2b5394b4e8268e24'; */
 var chill, chillValue;
 
 fetch(apiURL)
@@ -33,7 +33,17 @@ fetch(apiURL)
   
       return Math.floor(WC)
   }
-  fetch(apiURL2)
+});
+
+/*function compute_wind_chill(temperature, speed) {
+    const T = temperature;
+    const W = speed;
+    const WC = 35.74 + (0.6215 * T) - (35.75 * speed ** 0.16) + (0.4275 * T * W ** 0.16)
+
+    return Math.floor(WC)
+}*/
+
+/*fetch(apiURL2)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
@@ -50,23 +60,13 @@ fetch(apiURL)
         let imagealt = '//openweathermap.org/img/w/' + forecast_list[i].weather[0].description;
 
 
-        document.getElementById("day" + count).textContent = day;
-        document.getElementById("img" + count).setAttribute('src', imagesrc);
-        document.getElementById("img" + count).setAttribute('alt', imagealt);
-        document.getElementById("tem" + count).textContent = forecast_list[i].main.temp + "°F";
+        document.getElementById("day " + count).textContent = day;
+        document.getElementById("img " + count).setAttribute('src', imagesrc);
+        document.getElementById("img " + count).setAttribute('alt', imagealt);
+        document.getElementById("tem " + count).textContent = forecast_list[i].main.temp + "°F";
         
               
         count += 1;  
       }
     }
-  });
-});
-
-/*function compute_wind_chill(temperature, speed) {
-    const T = temperature;
-    const W = speed;
-    const WC = 35.74 + (0.6215 * T) - (35.75 * speed ** 0.16) + (0.4275 * T * W ** 0.16)
-
-    return Math.floor(WC)
-}*/
-
+  }); */
