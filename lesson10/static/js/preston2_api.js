@@ -17,10 +17,10 @@ fetch(apiURL2)
         let imagealt = '//openweathermap.org/img/w/' + forecast_list[i].weather[0].description;
 
 
-        document.getElementById("day " + count).textContent = day;
-        document.getElementById("img " + count).setAttribute('src', imagesrc);
-        document.getElementById("img " + count).setAttribute('alt', imagealt);
-        document.getElementById("tem " + count).textContent = forecast_list[i].main.temp + "°F";
+        document.getElementById("day" + count).textContent = day;
+        document.getElementById("img" + count).setAttribute('src', imagesrc);
+        document.getElementById("img" + count).setAttribute('alt', imagealt);
+        document.getElementById("tem" + count).textContent = forecast_list[i].main.temp + "°F";
         
               
         count += 1;  
