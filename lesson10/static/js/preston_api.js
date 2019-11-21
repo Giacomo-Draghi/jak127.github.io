@@ -25,6 +25,13 @@ fetch(apiURL)
     } else {
       chill.innerHTML = 'N/A';
     }
+    function compute_wind_chill(temperature, speed) {
+      const T = temperature;
+      const W = speed;
+      const WC = 35.74 + (0.6215 * T) - (35.75 * speed ** 0.16) + (0.4275 * T * W ** 0.16)
+  
+      return Math.floor(WC)
+  }
 });
 
 /*function compute_wind_chill(temperature, speed) {
