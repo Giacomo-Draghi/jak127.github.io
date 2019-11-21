@@ -14,7 +14,7 @@ fetch(apiURL)
     document.querySelector('span#humidity').append(humidity);
     let speed = data.wind.speed;
     document.querySelector('span#speed').append(speed);
-    /*var chill, chillValue;
+    var chill, chillValue;
     //temperature = parseFloat(document.getElementById('temperature').innerHTML);
     //speed = parseFloat(document.getElementById('speed').innerHTML);
     chill = document.getElementById('chill');
@@ -24,7 +24,7 @@ fetch(apiURL)
       chill.innerHTML = chillValue;
     } else {
       chill.innerHTML = 'N/A';
-    }*/
+    }
 });
 
 /*function compute_wind_chill(temperature, speed) {
