@@ -1,5 +1,5 @@
 var apiURL ='https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=2b91a52d5a023d1d2b5394b4e8268e24';
-var apiURL2 ='https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=2b91a52d5a023d1d2b5394b4e8268e24';
+//var apiURL2 ='https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=2b91a52d5a023d1d2b5394b4e8268e24';
 var chill, chillValue;
 
 fetch(apiURL)
@@ -18,7 +18,7 @@ fetch(apiURL)
     
     /*temperature = parseFloat(document.getElementById('temperature').innerHTML);
     speed = parseFloat(document.getElementById('speed').innerHTML);*/
-    /*chill = document.getElementById('chill');
+    chill = document.getElementById('chill');
     chillValue = compute_wind_chill(temperature, speed);
 
     if (temperature <= 50 && speed > 3) {
@@ -32,7 +32,7 @@ fetch(apiURL)
       const WC = 35.74 + (0.6215 * T) - (35.75 * speed ** 0.16) + (0.4275 * T * W ** 0.16)
   
       return Math.floor(WC)
-  }*/
+  }
 });
 
 /*function compute_wind_chill(temperature, speed) {
@@ -43,7 +43,7 @@ fetch(apiURL)
     return Math.floor(WC)
 }*/
 
-fetch(apiURL2)
+/*fetch(apiURL2)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
@@ -69,4 +69,4 @@ fetch(apiURL2)
         count += 1;  
       }
     }
-  });
+  }); */
