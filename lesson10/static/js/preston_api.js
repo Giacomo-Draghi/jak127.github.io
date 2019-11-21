@@ -1,5 +1,5 @@
 var apiURL ='https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=2b91a52d5a023d1d2b5394b4e8268e24';
-/*var apiURL2 ='https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=2b91a52d5a023d1d2b5394b4e8268e24'; */
+var apiURL2 ='https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=2b91a52d5a023d1d2b5394b4e8268e24';
 var chill, chillValue;
 
 fetch(apiURL)
