@@ -15,8 +15,8 @@ fetch(apiURL)
     let speed = data.wind.speed;
     document.querySelector('span#speed').append(speed);
     var chill, chillValue;
-    //temperature = parseFloat(document.getElementById('temperature').innerHTML);
-    //speed = parseFloat(document.getElementById('speed').innerHTML);
+    /*temperature = parseFloat(document.getElementById('temperature').innerHTML);
+    speed = parseFloat(document.getElementById('speed').innerHTML);*/
     chill = document.getElementById('chill');
     chillValue = compute_wind_chill(temperature, speed);
 
