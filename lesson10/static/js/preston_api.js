@@ -34,7 +34,7 @@ fetch(apiURL)
 
     return Math.floor(WC)
 }*/
-
+/*
 fetch(apiURL2)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -61,4 +61,4 @@ fetch(apiURL2)
         count += 1;  
       }
     }
-  });
+  }); */
