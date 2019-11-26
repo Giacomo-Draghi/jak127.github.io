@@ -128,6 +128,14 @@ nav {
     color: #C62B2B;
 }
 
+.events {
+    text-align: center;
+    border: solid 1px #46B1C9;
+    border-radius: 10px;
+    background-color: #FFF15E;
+    min-width: 50%;
+    padding: 20px;
+}
 .bannerSummary {
     position: relative;
     margin: 4px;
@@ -278,7 +286,7 @@ nav {
 #friday-banner {
     position: absolute;
     display: none;
-    color: #ffff00;
+    color: #C62B2B;
     text-align: center;
     margin: 0 auto;
     padding: 10px;
