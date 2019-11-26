@@ -308,24 +308,24 @@ nav {
     margin: 20px;
 }
 
-div.gallery-div picture {
+div.gallery-div figure {
     text-align: center;
     background-color:rgba(255, 242, 94, 0.158);
 }
 
-.gallery-div picture img {
+.gallery-div figure img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
 
-.gallery-div picture {
+.gallery-div figure {
     position: relative;
     width: 100%;
     height: auto;
   }
 
-.gallery-div picture p {
+.gallery-div figure p {
     visibility: hidden;
     width: 100%;
     position: absolute;
@@ -337,11 +337,11 @@ div.gallery-div picture {
     color: #000;
 }
 
-picture img[data-src] {
+figure img[data-src] {
     filter: blur(0.2em);
 }
 
-picture img {
+figure img {
     filter: blur(0em);
     transition: filter 0.5s;
 }
