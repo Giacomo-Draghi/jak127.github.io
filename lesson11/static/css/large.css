@@ -86,11 +86,11 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .gallery-div picture img:hover {
+    .gallery-div div img:hover {
         box-shadow: 5px 10px 20px 5px rgba(233, 10, 10, 0.445);
     }
 
-    .gallery-div picture p {
+    .gallery-div div p {
         visibility: visible;
     }
 
