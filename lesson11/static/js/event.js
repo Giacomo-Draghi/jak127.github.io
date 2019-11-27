@@ -13,7 +13,7 @@ fetch(requestURL) .then(function (response) {
         let p1 = document.createElement('p');
         const txt = 'Upcoming Events in Preston: ';
 
-        p1.textContent = towns[4].events[i] + 'br' ;
+        p1.textContent = towns[4].events[i];
 
         event.appendChild(p1);
 
