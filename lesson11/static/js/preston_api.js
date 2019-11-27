@@ -59,7 +59,7 @@ fetch(apiURL2)
         const day = weekdays[date.getDay()];
 
         let imagesrc = '//openweathermap.org/img/w/' + forecast_list[i].weather[0].icon + '.png';
-        let imagealt = '//openweathermap.org/img/w/' + forecast_list[i].weather[0].description;
+        let imagealt = forecast_list[i].weather[0].description;
 
 
         document.getElementById("day" + count).textContent = day;
