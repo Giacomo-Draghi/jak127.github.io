@@ -11,7 +11,6 @@ fetch(requestURL) .then(function (response) {
     for (let i = 0; i < eve.length; i++ ) {
         let event = document.createElement('section');
         let p1 = document.createElement('p');
-        const txt = 'Upcoming Events in Preston: ';
 
         p1.textContent = towns[4].events[i];
 

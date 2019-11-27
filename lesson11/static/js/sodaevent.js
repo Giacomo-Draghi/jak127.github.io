@@ -6,12 +6,11 @@ fetch(requestURL) .then(function (response) {
     const towns = jsonObject['towns'];
     const eve = towns[5].events;
     let h3 = document.createElement('h3');
-    h3.textContent = 'Upcoming Events in Preston: ';
+    h3.textContent = 'Upcoming Events in Soda Springs: ';
     document.querySelector('div.events').appendChild(h3);
     for (let i = 0; i < eve.length; i++ ) {
         let event = document.createElement('section');
         let p1 = document.createElement('p');
-        const txt = 'Upcoming Events in Soda Springs: ';
 
         p1.textContent = towns[5].events[i];
 
