@@ -1,0 +1,67 @@
+body {
+  font-family: 'Crete Round', serif, sans-serif;
+  color: #000000;
+}
+
+header {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #00549e;
+}
+header section {
+  margin: 0 auto;
+  padding-bottom: 3px;
+}
+header h1 {
+  font-size: 1.5em;
+  margin-bottom: 1px;
+}
+header h2 {
+  font-size: 0.7em;
+  margin-top: 1px;
+}
+header picture img {
+  width: auto;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #00549e;
+  margin: 0px;
+  border-top: solid #303b44;
+}
+nav .menu-ul li:first-child {
+  display: block;
+}
+nav .menu-ul li {
+  display: none;
+}
+nav .menu-ul a {
+  display: block;
+  color: #ffffff;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+}
+nav .menu-ul a:hover {
+  background-color: #ffffff;
+  color: #00549e;
+  font-weight: 700;
+}
+nav .active {
+  background-color: #ffffff;
+}
+nav .menu-ul .active a {
+  color: #00549e;
+}
+nav .menu-ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+}
+nav .responsive li {
+  display: block;
+}
