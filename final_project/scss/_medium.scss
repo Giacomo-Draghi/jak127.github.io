@@ -26,3 +26,24 @@ header {
         max-height: 80px;
     }
 }
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+div.box-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+}
+
+div.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+    .map {
+        display: block;
+    }
+}

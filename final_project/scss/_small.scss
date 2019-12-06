@@ -51,7 +51,7 @@ nav {
     .menu-ul a:hover {
 	    background-color: $white;
         color: $primaryColor;
-	    font-weight: 700;
+        font-weight: 700;
     }
     .active {
         background-color: $white;
@@ -73,6 +73,80 @@ nav {
 }
 }
 
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+div section img {
+    width: 100%;
+    height: auto;
+}
+
+h1,h2,h3 {
+    font-family: 'Patua One', cursive, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: $secondaryColor;
+}
+
+div.box-1 {
+    background-color: $primaryColor;
+    border: solid 3px $secondaryColor;
+    color: $white;
+    border-radius: 6px;
+    padding: 2%;
+    margin: 10px;
+    h3 {
+        color: $black;
+        text-align: center;
+    }
+}
+a {
+    color: $black;
+}
+
+a:visited{
+    color: $secondaryColor;
+}
+
+div.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
+    .map {
+        display: none;
+    }
+
+    section {
+        margin: auto;
+    }
+
+    section.reserve {
+        border: solid 2px $secondaryColor;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.671);
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+footer {
+    text-align: center;
+    color: $white;
+    background-color: $primaryColor;
+
+    
+}
 
 
 
