@@ -32,12 +32,14 @@ nav {
     background-color: $primaryColor;
     margin: 0px;
     border-top: solid $secondaryColor;
+    height: 100%;
     
     .menu-ul li:first-child {
     	display: block;
     }
     .menu-ul li {
-    	display: none;
+        display: none;
+        margin: auto;
     }
     .menu-ul a {
 	    display: block;
@@ -63,6 +65,7 @@ nav {
 	text-align: center;
     padding: 0;
     margin: 0 auto;
+    height: 100%;
     }
     .responsive li {
     display: block;
