@@ -64,4 +64,28 @@ nav .menu-ul {
 }
 nav .responsive li {
   display: block;
+  color: #000;
+}
+
+@media only screen and (min-width: 37.5em) {
+  nav .menu-ul {
+    display: flex;
+  }
+  nav .menu-ul li:first-child {
+    display: none;
+  }
+  nav .menu-ul li {
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  div.top-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+  }
+
+  header {
+    width: 100%;
+  }
 }

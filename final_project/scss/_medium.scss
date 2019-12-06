@@ -1,0 +1,21 @@
+nav .menu-ul {
+    display: flex;
+        
+    li:first-child {
+        display: none;
+    }
+    li {
+        display: block;
+        flex: 1 1 100%;
+    }
+}
+
+div.top-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+}

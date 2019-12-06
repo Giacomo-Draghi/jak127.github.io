@@ -41,18 +41,18 @@ nav {
     }
     .menu-ul a {
 	    display: block;
-	    color: $with;
+	    color: $white;
 	    padding: 0.75rem;
 	    text-align: center;
 	    text-decoration: none;
     }
     .menu-ul a:hover {
-	    background-color: $with;
+	    background-color: $white;
         color: $primaryColor;
 	    font-weight: 700;
     }
     .active {
-        background-color: $with;
+        background-color: $white;
     }
 
     .menu-ul .active a{
