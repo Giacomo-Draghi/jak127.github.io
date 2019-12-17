@@ -354,10 +354,12 @@ header section {
 header h1 {
   font-size: 1.5em;
   margin-bottom: 1px;
+  color: #ffffff;
 }
-header h2 {
+header em {
   font-size: 0.7em;
   margin-top: 1px;
+  color: #ffffff;
 }
 header picture img {
   width: auto;
@@ -477,6 +479,71 @@ footer {
   text-align: center;
   color: #ffffff;
   background-color: #00549e;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+/*css for form*/
+.form-fieldset {
+  margin: 2rem 0;
+  border-radius: 10px;
+  padding: .5rem 2%;
+  border: 1px solid #00549e;
+}
+
+.form-label-top {
+  display: flex;
+  padding-top: 1rem;
+  align-items: center;
+}
+
+.form-legend {
+  color: #303b44;
+  font-weight: bold;
+}
+
+.form-label-top-input, .form-label-top-select {
+  -webkit-appearance: none;
+  display: flex;
+  border: solid 1px #00549e;
+  border-radius: 5px;
+  padding: .75rem;
+  color: #1b1b1b;
+  width: 85%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.096);
+  margin: 2%;
+}
+
+.form-label-sbs, .form-label-sbs-input {
+  display: flex;
+  padding: .7rem 0;
+}
+
+.submitBtn {
+  border: none;
+  background-color: #00549e;
+  color: #ffffff;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+.form {
+  max-width: 400px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.form-label-top-input:invalid {
+  border-left: red solid 6px;
+}
+
+.form-label-top-input:required:valid {
+  border-left: green solid 6px;
 }
 
 @media only screen and (min-width: 37.5em) {
@@ -506,6 +573,9 @@ footer {
   }
   header img {
     max-height: 80px;
+  }
+  header section h1, header section em {
+    display: none;
   }
 
   main {

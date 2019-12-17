@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Assignment|Home</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Giacomo Draghi">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round%7cPatua+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top-page">
+        <header>
+            <a href="index.html" target="_self"><picture>
+                <source media="(min-width: 37.5em)" srcset="img/favicow-medium.png">
+                <img src="img/favicow.png" alt="Logo"></picture></a>
+                <section><h1>Temple In & Suites</h1>
+                <em>Your facorite Temple accomodation</em></section>
+                
+        </header>
+        <nav>
+            <ul class="menu-ul">
+                <li class="menu-li"><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li class="menu-li"><a href="index.html" target="_self">Home</a></li>
+                <li class="menu-li active"><a href="reservation.html" target="_self">Reservation</a></li>
+                <li class="menu-li"><a href="#" target="_self">Temple</a></li>
+                <li class="menu-li"><a href="#" target="_self">Services</a></li>
+                <li class="menu-li"><a href="#" target="_self">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <main>
+        <h2>Reservation<br>
+            <em>Reservation form</em>
+        </h2>
+            <form method="get" action="thanks.html" class="form">
+                <fieldset class="form-fieldset">
+                    <legend class="form-legend">Personal informations</legend>
+                    <label class="form-label-top">Full name*: <input class="form-label-top-input" type="text" name="name" minlength="5" pattern="[A-Za-z ]+" required></label>
+                    <label class="form-label-top">Emal: <input class="form-label-top-input" type="email" name="email" placeholder="email@yahoo.it"></label>
+                    <label class="form-label-top">Phone*: <input class="form-label-top-input" type="tel" name="phone" required></label>
+                    <label class="form-label-top">Number*: <input class="form-label-top-input" type="number" name="people" required></label>
+                    <label class="form-label-top">Home State*: <input class="form-label-top-input" type="text" name="Location" required></label>
+                </fieldset>
+                <fieldset class="form-fieldset">
+                    <legend class="form-legend">Reservation Details</legend>
+                    <label class="form-label-top">Reservation date: <input class="form-label-top-input" type="date" name="date"></label>
+                    <label class="form-label-top">Location: <input class="form-label-top-input" type="text" name="storm-type" list="storm-type"></label>
+                    <datalist id="storm-type">
+                        <option value="Rome Temple">
+                        <option value="Bern Temple">
+                        <option value="Paris Temple">
+                        <option value="London Temple">
+                    </datalist>
+                    <label class="form-label-top">Room type: <select class="form-label-top-select" name="storm-region" >
+                        <option value="">SelectRregion</option>
+                        <option value="preston">Preston</option>
+                        <option value="soda-springs">Soda Springs</option>
+                        <option value="fish-haven">Fish Haven</option>
+                    </select></label>
+                </fieldset>
+                <fieldset class="form-fieldset">
+                    <legend class="form-legend">Additional info</legend>
+                    <label class="form-label-top">special accommodations /comments: <br><textarea name="comments" rows="4"></textarea></label>
+                </fieldset>
+                <section>
+                  <input class="submitBtn" type="submit" value="Send Reservation">  
+                </section>
+                
+            </form> 
+        
+        <div class="contact-info">
+            <section class="reserve">
+                <a href="reservation.html" target="_self"><h1>Make a Reservation</h1></a>
+            </section>
+            <section class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.405019701323!2d-77.09772048464716!3d38.98325177955754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20Stati%20Uniti!5e0!3m2!1sit!2sit!4v1575656420453!5m2!1sit!2sit" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </section>
+            <section>
+
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="Year"></span> | Giacomo Draghi | Rimini, Italy | <a href="https://www.byui.edu/online"
+                target="_blank">BYUI Online Learning</a><br><span id="lastUpdated"></span></p>
+    </footer>
+    
+    <script src="js/MyScript.js"></script>
+    <script src="js/lazyload.js"></script>
+</body>
+
+</html>

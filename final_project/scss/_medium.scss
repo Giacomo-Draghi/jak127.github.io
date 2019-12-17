@@ -25,6 +25,9 @@ header {
     img {
         max-height: 80px;
     }
+    section h1, section em {
+        display: none;
+    }
 }
 
 main {
@@ -47,3 +50,5 @@ div.contact-info {
         display: block;
     }
 }
+
+
