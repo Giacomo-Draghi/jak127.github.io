@@ -48,19 +48,19 @@
                 </fieldset>
                 <fieldset class="form-fieldset">
                     <legend class="form-legend">Reservation Details</legend>
-                    <label class="form-label-top">Reservation date: <input class="form-label-top-input" type="date" name="date"></label>
-                    <label class="form-label-top">Location: <input class="form-label-top-input" type="text" name="storm-type" list="storm-type"></label>
-                    <datalist id="storm-type">
+                    <label class="form-label-top">Reservation date*: <input class="form-label-top-input" type="date" name="date" required></label>
+                    <label class="form-label-top">Location*: <input class="form-label-top-input" type="text" name="storm-type" list="temple-location" required></label>
+                    <datalist id="temple-location">
                         <option value="Rome Temple">
                         <option value="Bern Temple">
                         <option value="Paris Temple">
                         <option value="London Temple">
                     </datalist>
                     <label class="form-label-top">Room type: <select class="form-label-top-select" name="storm-region" >
-                        <option value="">SelectRregion</option>
-                        <option value="preston">Preston</option>
-                        <option value="soda-springs">Soda Springs</option>
-                        <option value="fish-haven">Fish Haven</option>
+                        <option value="">SelectRoom</option>
+                        <option value="Standard">Standard</option>
+                        <option value="Premium">Premium</option>
+                        <option value="Luxury">Luxury</option>
                     </select></label>
                 </fieldset>
                 <fieldset class="form-fieldset">
