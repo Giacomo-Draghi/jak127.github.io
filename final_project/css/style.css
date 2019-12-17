@@ -549,6 +549,10 @@ footer {
   border-left: green solid 6px;
 }
 
+section label.form-label-top textarea {
+  width: 100%;
+}
+
 @media only screen and (min-width: 37.5em) {
   nav .menu-ul {
     display: flex;
