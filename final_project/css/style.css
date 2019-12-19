@@ -552,6 +552,14 @@ section label.form-label-top textarea {
   width: 100%;
 }
 
+section#contact {
+  margin: 0 auto;
+  padding: 2%;
+}
+section#contact p span {
+  font-weight: 600;
+}
+
 @media only screen and (min-width: 37.5em) {
   nav .menu-ul {
     display: flex;
