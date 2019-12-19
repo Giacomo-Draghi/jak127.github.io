@@ -420,7 +420,7 @@ img {
   transition: filter 0.5s;
 }
 
-div section img {
+div div img {
   width: 100%;
   height: auto;
 }
@@ -457,7 +457,6 @@ a:visited {
 
 div.contact-info {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
 }
 div.contact-info .map {
