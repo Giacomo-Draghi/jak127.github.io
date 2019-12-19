@@ -229,3 +229,8 @@ section#contact {
          font-weight: 600;
      }
 }
+
+main div.json div.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
