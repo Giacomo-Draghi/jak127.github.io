@@ -232,22 +232,21 @@ section#contact {
 
 main div.json div.box {
     padding: 10px;
+    background-color: $primaryColor;
+    border: solid 3px $secondaryColor;
+    color: $white;
+    border-radius: 6px;
+    margin: 10px;
     div {
         margin: auto;  
-      }
-      section p{
+    }
+    section p{
         margin: 0;  
-      }
-      section h4{
+    }
+    section h4{
           margin: 5px;
-      }
-      background-color: $primaryColor;
-      border: solid 3px $secondaryColor;
-      color: $white;
-      border-radius: 6px;
-      margin: 10px;
-
-      h4, h2 {
+    }
+    h4, h2 {
         color: $black;
         text-align: center;
     }
