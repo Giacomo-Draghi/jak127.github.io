@@ -14,7 +14,7 @@ header {
         margin-bottom: 1px;
         color: $white;
     }
-    em{
+    em {
         font-size: 0.7em;
         margin-top: 1px;
         color: $white;
@@ -59,7 +59,7 @@ nav {
         background-color: $white;
     }
 
-    .menu-ul .active a{
+    .menu-ul .active a {
         color: $primaryColor;
     }
     .menu-ul {
@@ -214,19 +214,19 @@ footer {
     border-left: red solid 6px;
 }
 
-.form-label-top-input:required:valid{
+.form-label-top-input:required:valid {
     border-left: green solid 6px;
 }
 
-section label.form-label-top textarea{
+section label.form-label-top textarea {
     width: 100%;
 }
 
 section#contact {
     margin: 0 auto;
     padding: 2%;
-     p span{
-         font-weight: 600;
+     p span {
+        font-weight: 600;
      }
 }
 
@@ -240,11 +240,11 @@ main div.json div.box {
     div {
         margin: auto;  
     }
-    section p{
+    section p {
         margin: 0;  
     }
-    section h4{
-          margin: 5px;
+    section h4 {
+        margin: 5px;
     }
     h4, h2 {
         color: $black;
