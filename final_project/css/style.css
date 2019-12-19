@@ -560,10 +560,12 @@ section#contact p span {
 }
 
 main div.json div.box {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   padding: 10px;
-  column-gap: 15px;
+  background-color: #00549e;
+  border: solid 3px #303b44;
+  color: #ffffff;
+  border-radius: 6px;
+  margin: 10px;
 }
 main div.json div.box div {
   margin: auto;
@@ -573,6 +575,10 @@ main div.json div.box section p {
 }
 main div.json div.box section h4 {
   margin: 5px;
+}
+main div.json div.box h4, main div.json div.box h2 {
+  color: #000000;
+  text-align: center;
 }
 
 @media only screen and (min-width: 37.5em) {
@@ -631,5 +637,34 @@ main div.json div.box section h4 {
     border: 0;
     width: 100%;
     height: 300px;
+  }
+
+  main div.json div.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    column-gap: 15px;
+  }
+}
+@media only screen and (min-width: 60em) {
+  main div.json div.box {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 15px;
+    margin: 10px;
+    background-color: none;
+    border: none;
+  }
+
+  main div.json {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    background-color: #00549e;
+    border: solid 3px #303b44;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 2%;
+    margin: 10px;
   }
 }

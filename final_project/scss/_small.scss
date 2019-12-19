@@ -231,19 +231,24 @@ section#contact {
 }
 
 main div.json div.box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     padding: 10px;
-    column-gap: 15px;
-        div {
-          margin: auto;  
-        }
-        section p{
-          margin: 0;  
-        }
-        section h4{
-            margin: 5px;
-        }
-    
-    
+    div {
+        margin: auto;  
+      }
+      section p{
+        margin: 0;  
+      }
+      section h4{
+          margin: 5px;
+      }
+      background-color: $primaryColor;
+      border: solid 3px $secondaryColor;
+      color: $white;
+      border-radius: 6px;
+      margin: 10px;
+
+      h4, h2 {
+        color: $black;
+        text-align: center;
+    }
 }

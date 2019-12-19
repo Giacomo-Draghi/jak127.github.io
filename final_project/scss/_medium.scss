@@ -57,3 +57,11 @@ iframe {
     height: 300px;
 }
 
+main div.json div.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    column-gap: 15px;
+    
+}
+
