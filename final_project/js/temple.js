@@ -7,23 +7,46 @@ fetch(requestURL) .then(function (response) {
     for (let i = 0; i < temple.length; i++ ) {
         
         let div = document.createElement ('div');
-        div.setAttribute('class', 'box-' + [i]);
+        div.setAttribute('class', 'box');
         let sec = document.createElement ('section');
         let div2 = document.createElement ('div');
         let h2 = document.createElement('h2');
         let p1 = document.createElement('p');
-        let br = document.createElement('br');
+        let p2 = document.createElement('p');
+        let p3 = document.createElement('p');
+        let p4 = document.createElement('p');
+        let p5 = document.createElement('p');
+        let h4 = document.createElement('h4');
+        let p6 = document.createElement('p');
+        let p7 = document.createElement('p');
+        let p8 = document.createElement('p');
+        let hh4 = document.createElement('h4');
         let img = document.createElement('img');
-        //img.setAttribute('src', 'img/image-placeholder1.jpg');
         img.setAttribute ('src', temple[i].imageurl);
         img.setAttribute ('alt', temple[i].name);
 
         h2.textContent = temple[i].name;
-        p1.textContent = 'Address: ' + temple[i].address + '<br>' +'Telephone: '+ temple[i].telephone + br + 'E-mail: ' + temple[i].email + br + 'Services: ' + temple[i].services + br +
-            'Dedicated on: ' + temple[i].hystory + br + 'Ordinance Schedule: ' + br + temple[i].session1 + br + temple[i].session2 + br + 'Closure: ' + br + temple[i].closure;
+        p1.textContent = 'Address: ' + temple[i].address;
+        p2.textContent = 'Telephone: '+ temple[i].telephone;
+        p3.textContent = 'E-mail: ' + temple[i].email;
+        p4.textContent = 'Services: ' + temple[i].services;
+        p5.textContent = 'Dedicated on: ' + temple[i].history;
+        h4.textContent = 'Ordinance Schedule:';
+        p6.textContent = temple[i].session1;
+        p7.textContent = temple[i].session2;
+        hh4.textContent ='Closure:';
+        p8.textContent = temple[i].closure;
         
         sec.appendChild(h2);
-        sec.appendChild(p1);
+        sec.appendChild(p2);
+        sec.appendChild(p3);
+        sec.appendChild(p4);
+        sec.appendChild(p5);
+        sec.appendChild(h4);
+        sec.appendChild(p6);
+        sec.appendChild(p7);
+        sec.appendChild(hh4);
+        sec.appendChild(p8);
         div2.appendChild(img);
         div.appendChild(div2);
         div.appendChild(sec);
@@ -33,6 +56,8 @@ fetch(requestURL) .then(function (response) {
     }  
     
 });
+
+
 
 
 /*
