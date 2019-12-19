@@ -568,6 +568,12 @@ main div.json div.box {
 main div.json div.box div {
   margin: auto;
 }
+main div.json div.box section p {
+  margin: 0;
+}
+main div.json div.box section h4 {
+  margin: 5px;
+}
 
 @media only screen and (min-width: 37.5em) {
   nav .menu-ul {
