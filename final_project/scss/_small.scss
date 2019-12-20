@@ -251,3 +251,16 @@ main div.json div.box {
         text-align: center;
     }
 }
+
+div.box-2, div.box-3{
+    padding: 10px;
+    background-color: $primaryColor;
+    border: solid 3px $secondaryColor;
+    color: $white;
+    border-radius: 6px;
+    margin: 10px;
+    h2, h4{
+        color: $black;
+        text-align: center;
+    }
+}
