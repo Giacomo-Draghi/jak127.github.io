@@ -603,6 +603,12 @@ div.box-2 a, div.box-3 a {
 div.box-2 a:hover, div.box-3 a:hover {
   font-weight: 700;
 }
+div.box-2 picture img, div.box-3 picture img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+}
 
 @media only screen and (min-width: 37.5em) {
   nav .menu-ul {
@@ -668,6 +674,10 @@ div.box-2 a:hover, div.box-3 a:hover {
     padding: 10px;
     column-gap: 15px;
   }
+
+  div.box-2 picture img, div.box-3 picture img {
+    width: 50%;
+  }
 }
 @media only screen and (min-width: 60em) {
   main div.json div.box {
@@ -688,5 +698,9 @@ div.box-2 a:hover, div.box-3 a:hover {
     border-radius: 6px;
     padding: 2%;
     margin: 10px;
+  }
+
+  div.box-2 picture img, div.box-3 picture img {
+    width: 40%;
   }
 }
