@@ -15,6 +15,7 @@ fetch(requestURL) .then(function (response) {
             let p2 = document.createElement('p');
             let p3 = document.createElement('p');
             let image = document.createElement('img');
+        
 
             h2.textContent = towns[i].name;
             em.textContent = towns[i].motto;
