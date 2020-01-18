@@ -32,6 +32,7 @@ fetch(requestURL) .then(function (response) {
             div1.appendChild(p2);
             div1.appendChild(p3);
             div2.appendChild(image);
+            
 
             document.querySelector('div.cards').appendChild(card);
         }
